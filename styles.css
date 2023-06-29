@@ -63,10 +63,30 @@ img {
 
 .clearfix:after { content: ""; display: table;clear: both; }
 
-@media screen and (max-width:998px) {
-  .col1,.col2{
-    max-width: 45%;
+@media screen and (max-width: 998px) {
+  body {
+    background-color: aquamarine;
   }
-  .col3{ max-width: 100%;}
+  .col1, .col2 {
+    width: 45%;
+  }
+  .col3{ width: 100%;} 
+}
+@media screen and (max-width:768px) {
+  .main-content{ 
+    width: 100%;
+    float:none;
+  }
+  .sidebar{
+    width: 100%;
+    float: none;
+  }
+}
+@media screen and (max-width:596px) {
+  .col1, .col2 {
+    width: 100%;
+  }
+  .sidebox-1 { display: none;}
+
   
 }
