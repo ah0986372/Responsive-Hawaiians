@@ -64,9 +64,7 @@ img {
 .clearfix:after { content: ""; display: table;clear: both; }
 
 @media screen and (max-width: 998px) {
-  body {
-    background-color: aquamarine;
-  }
+
   .col1, .col2 {
     width: 45%;
   }
